@@ -1,0 +1,4 @@
+# TTLoginDemo
+主要解决text设置密码使用 securetextentry 出现的字体变化和留白的问题
+
+解决了使用textfield的securetextentry切换明文暗文出现的光标留白 以及字体变化的bug。
