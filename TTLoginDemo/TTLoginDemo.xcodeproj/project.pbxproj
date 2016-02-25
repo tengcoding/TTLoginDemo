@@ -1,0 +1,522 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A500235E1C7EEEC4006E9D75 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A500235D1C7EEEC4006E9D75 /* main.m */; };
+		A50023611C7EEEC4006E9D75 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A50023601C7EEEC4006E9D75 /* AppDelegate.m */; };
+		A50023641C7EEEC4006E9D75 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A50023631C7EEEC4006E9D75 /* ViewController.m */; };
+		A50023671C7EEEC4006E9D75 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A50023651C7EEEC4006E9D75 /* Main.storyboard */; };
+		A50023691C7EEEC4006E9D75 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A50023681C7EEEC4006E9D75 /* Assets.xcassets */; };
+		A500236C1C7EEEC4006E9D75 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A500236A1C7EEEC4006E9D75 /* LaunchScreen.storyboard */; };
+		A50023771C7EEEC4006E9D75 /* TTLoginDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A50023761C7EEEC4006E9D75 /* TTLoginDemoTests.m */; };
+		A50023821C7EEEC4006E9D75 /* TTLoginDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A50023811C7EEEC4006E9D75 /* TTLoginDemoUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A50023731C7EEEC4006E9D75 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A50023511C7EEEC4006E9D75 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A50023581C7EEEC4006E9D75;
+			remoteInfo = TTLoginDemo;
+		};
+		A500237E1C7EEEC4006E9D75 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A50023511C7EEEC4006E9D75 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A50023581C7EEEC4006E9D75;
+			remoteInfo = TTLoginDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A50023591C7EEEC4006E9D75 /* TTLoginDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TTLoginDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A500235D1C7EEEC4006E9D75 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A500235F1C7EEEC4006E9D75 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A50023601C7EEEC4006E9D75 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A50023621C7EEEC4006E9D75 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A50023631C7EEEC4006E9D75 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A50023661C7EEEC4006E9D75 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A50023681C7EEEC4006E9D75 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A500236B1C7EEEC4006E9D75 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A500236D1C7EEEC4006E9D75 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A50023721C7EEEC4006E9D75 /* TTLoginDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TTLoginDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A50023761C7EEEC4006E9D75 /* TTLoginDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TTLoginDemoTests.m; sourceTree = "<group>"; };
+		A50023781C7EEEC4006E9D75 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A500237D1C7EEEC4006E9D75 /* TTLoginDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TTLoginDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A50023811C7EEEC4006E9D75 /* TTLoginDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TTLoginDemoUITests.m; sourceTree = "<group>"; };
+		A50023831C7EEEC4006E9D75 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A50023561C7EEEC4006E9D75 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A500236F1C7EEEC4006E9D75 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A500237A1C7EEEC4006E9D75 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A50023501C7EEEC4006E9D75 = {
+			isa = PBXGroup;
+			children = (
+				A500235B1C7EEEC4006E9D75 /* TTLoginDemo */,
+				A50023751C7EEEC4006E9D75 /* TTLoginDemoTests */,
+				A50023801C7EEEC4006E9D75 /* TTLoginDemoUITests */,
+				A500235A1C7EEEC4006E9D75 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A500235A1C7EEEC4006E9D75 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A50023591C7EEEC4006E9D75 /* TTLoginDemo.app */,
+				A50023721C7EEEC4006E9D75 /* TTLoginDemoTests.xctest */,
+				A500237D1C7EEEC4006E9D75 /* TTLoginDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A500235B1C7EEEC4006E9D75 /* TTLoginDemo */ = {
+			isa = PBXGroup;
+			children = (
+				A500235F1C7EEEC4006E9D75 /* AppDelegate.h */,
+				A50023601C7EEEC4006E9D75 /* AppDelegate.m */,
+				A50023621C7EEEC4006E9D75 /* ViewController.h */,
+				A50023631C7EEEC4006E9D75 /* ViewController.m */,
+				A50023651C7EEEC4006E9D75 /* Main.storyboard */,
+				A50023681C7EEEC4006E9D75 /* Assets.xcassets */,
+				A500236A1C7EEEC4006E9D75 /* LaunchScreen.storyboard */,
+				A500236D1C7EEEC4006E9D75 /* Info.plist */,
+				A500235C1C7EEEC4006E9D75 /* Supporting Files */,
+			);
+			path = TTLoginDemo;
+			sourceTree = "<group>";
+		};
+		A500235C1C7EEEC4006E9D75 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A500235D1C7EEEC4006E9D75 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A50023751C7EEEC4006E9D75 /* TTLoginDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				A50023761C7EEEC4006E9D75 /* TTLoginDemoTests.m */,
+				A50023781C7EEEC4006E9D75 /* Info.plist */,
+			);
+			path = TTLoginDemoTests;
+			sourceTree = "<group>";
+		};
+		A50023801C7EEEC4006E9D75 /* TTLoginDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A50023811C7EEEC4006E9D75 /* TTLoginDemoUITests.m */,
+				A50023831C7EEEC4006E9D75 /* Info.plist */,
+			);
+			path = TTLoginDemoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A50023581C7EEEC4006E9D75 /* TTLoginDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A50023861C7EEEC4006E9D75 /* Build configuration list for PBXNativeTarget "TTLoginDemo" */;
+			buildPhases = (
+				A50023551C7EEEC4006E9D75 /* Sources */,
+				A50023561C7EEEC4006E9D75 /* Frameworks */,
+				A50023571C7EEEC4006E9D75 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TTLoginDemo;
+			productName = TTLoginDemo;
+			productReference = A50023591C7EEEC4006E9D75 /* TTLoginDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A50023711C7EEEC4006E9D75 /* TTLoginDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A50023891C7EEEC4006E9D75 /* Build configuration list for PBXNativeTarget "TTLoginDemoTests" */;
+			buildPhases = (
+				A500236E1C7EEEC4006E9D75 /* Sources */,
+				A500236F1C7EEEC4006E9D75 /* Frameworks */,
+				A50023701C7EEEC4006E9D75 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A50023741C7EEEC4006E9D75 /* PBXTargetDependency */,
+			);
+			name = TTLoginDemoTests;
+			productName = TTLoginDemoTests;
+			productReference = A50023721C7EEEC4006E9D75 /* TTLoginDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A500237C1C7EEEC4006E9D75 /* TTLoginDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A500238C1C7EEEC4006E9D75 /* Build configuration list for PBXNativeTarget "TTLoginDemoUITests" */;
+			buildPhases = (
+				A50023791C7EEEC4006E9D75 /* Sources */,
+				A500237A1C7EEEC4006E9D75 /* Frameworks */,
+				A500237B1C7EEEC4006E9D75 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A500237F1C7EEEC4006E9D75 /* PBXTargetDependency */,
+			);
+			name = TTLoginDemoUITests;
+			productName = TTLoginDemoUITests;
+			productReference = A500237D1C7EEEC4006E9D75 /* TTLoginDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A50023511C7EEEC4006E9D75 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = TT;
+				TargetAttributes = {
+					A50023581C7EEEC4006E9D75 = {
+						CreatedOnToolsVersion = 7.1.1;
+						DevelopmentTeam = 87J24SZYZK;
+					};
+					A50023711C7EEEC4006E9D75 = {
+						CreatedOnToolsVersion = 7.1.1;
+						DevelopmentTeam = 87J24SZYZK;
+						TestTargetID = A50023581C7EEEC4006E9D75;
+					};
+					A500237C1C7EEEC4006E9D75 = {
+						CreatedOnToolsVersion = 7.1.1;
+						DevelopmentTeam = 87J24SZYZK;
+						TestTargetID = A50023581C7EEEC4006E9D75;
+					};
+				};
+			};
+			buildConfigurationList = A50023541C7EEEC4006E9D75 /* Build configuration list for PBXProject "TTLoginDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A50023501C7EEEC4006E9D75;
+			productRefGroup = A500235A1C7EEEC4006E9D75 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A50023581C7EEEC4006E9D75 /* TTLoginDemo */,
+				A50023711C7EEEC4006E9D75 /* TTLoginDemoTests */,
+				A500237C1C7EEEC4006E9D75 /* TTLoginDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A50023571C7EEEC4006E9D75 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A500236C1C7EEEC4006E9D75 /* LaunchScreen.storyboard in Resources */,
+				A50023691C7EEEC4006E9D75 /* Assets.xcassets in Resources */,
+				A50023671C7EEEC4006E9D75 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A50023701C7EEEC4006E9D75 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A500237B1C7EEEC4006E9D75 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A50023551C7EEEC4006E9D75 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A50023641C7EEEC4006E9D75 /* ViewController.m in Sources */,
+				A50023611C7EEEC4006E9D75 /* AppDelegate.m in Sources */,
+				A500235E1C7EEEC4006E9D75 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A500236E1C7EEEC4006E9D75 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A50023771C7EEEC4006E9D75 /* TTLoginDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A50023791C7EEEC4006E9D75 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A50023821C7EEEC4006E9D75 /* TTLoginDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A50023741C7EEEC4006E9D75 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A50023581C7EEEC4006E9D75 /* TTLoginDemo */;
+			targetProxy = A50023731C7EEEC4006E9D75 /* PBXContainerItemProxy */;
+		};
+		A500237F1C7EEEC4006E9D75 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A50023581C7EEEC4006E9D75 /* TTLoginDemo */;
+			targetProxy = A500237E1C7EEEC4006E9D75 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A50023651C7EEEC4006E9D75 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A50023661C7EEEC4006E9D75 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A500236A1C7EEEC4006E9D75 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A500236B1C7EEEC4006E9D75 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A50023841C7EEEC4006E9D75 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A50023851C7EEEC4006E9D75 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A50023871C7EEEC4006E9D75 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TTLoginDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = TTL.TTLoginDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A50023881C7EEEC4006E9D75 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TTLoginDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = TTL.TTLoginDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		A500238A1C7EEEC4006E9D75 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TTLoginDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = TTL.TTLoginDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TTLoginDemo.app/TTLoginDemo";
+			};
+			name = Debug;
+		};
+		A500238B1C7EEEC4006E9D75 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TTLoginDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = TTL.TTLoginDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TTLoginDemo.app/TTLoginDemo";
+			};
+			name = Release;
+		};
+		A500238D1C7EEEC4006E9D75 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TTLoginDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = TTL.TTLoginDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TTLoginDemo;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		A500238E1C7EEEC4006E9D75 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TTLoginDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = TTL.TTLoginDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TTLoginDemo;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A50023541C7EEEC4006E9D75 /* Build configuration list for PBXProject "TTLoginDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A50023841C7EEEC4006E9D75 /* Debug */,
+				A50023851C7EEEC4006E9D75 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A50023861C7EEEC4006E9D75 /* Build configuration list for PBXNativeTarget "TTLoginDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A50023871C7EEEC4006E9D75 /* Debug */,
+				A50023881C7EEEC4006E9D75 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A50023891C7EEEC4006E9D75 /* Build configuration list for PBXNativeTarget "TTLoginDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A500238A1C7EEEC4006E9D75 /* Debug */,
+				A500238B1C7EEEC4006E9D75 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A500238C1C7EEEC4006E9D75 /* Build configuration list for PBXNativeTarget "TTLoginDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A500238D1C7EEEC4006E9D75 /* Debug */,
+				A500238E1C7EEEC4006E9D75 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A50023511C7EEEC4006E9D75 /* Project object */;
+}
